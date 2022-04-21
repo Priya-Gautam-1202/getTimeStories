@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: whitesmoke;
+}
+
+.navbar {
+    justify-content: flex-start;
+    position: relative;
+}
+
+input,button.search {
+    position: absolute;
+    right: 5px;
+    bottom: 20px;
+}
+.col-12 {
+    display: flex;
+}
+
+.col-2 {
+    background-color: yellow;
+    padding: 20px;
+}
+
+.column1, .column2 {
+    float: left;
+    height: 150px; 
+    width: 50%;
+}
+
+.column2 {
+    padding-left: 10px;
+}
+
+h4 {
+    color: red;
+}
+
+p.voices {
+    font-weight: bold;
+}
+
+a {
+    color:black
+}
